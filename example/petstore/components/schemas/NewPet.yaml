@@ -1,0 +1,9 @@
+required:
+  - name
+properties:
+  name:
+    type: string
+    description: Name of the pet
+  tag:
+    type: string
+    description: Type of the pet
