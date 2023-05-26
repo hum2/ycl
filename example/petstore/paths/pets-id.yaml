@@ -1,0 +1,4 @@
+get:
+  #include: ./pets-id/get.yaml
+delete:
+  #include: ./pets-id/delete.yaml

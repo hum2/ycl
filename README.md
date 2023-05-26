@@ -11,6 +11,6 @@ go install -u github.com/hum2/ycl@latest
 ## Usage
 
 ```sh
-# Output the composed YAML file to example/petstore/petstore.mod.yaml
-ycl -i example/petstore/petstore.yaml
+# Output the composed YAML file to example/petstore/petstore.gen.yaml
+ycl -i example/petstore/petstore.main.yaml
 ```

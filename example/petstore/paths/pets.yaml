@@ -1,0 +1,4 @@
+get:
+  #include: ./pets/get.yaml
+post:
+  #include: ./pets/post.yaml
