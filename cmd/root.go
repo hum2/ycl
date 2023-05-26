@@ -68,7 +68,7 @@ func run(inputPath string) error {
 		return err
 	}
 
-	outputPath := inputPath[:len(inputPath)-len(filepath.Ext(inputPath))] + ".mod" + filepath.Ext(inputPath)
+	outputPath := inputPath[:len(inputPath)-len(filepath.Ext(inputPath))] + ".gen" + filepath.Ext(inputPath)
 	err = os.WriteFile(outputPath, outputBytes, 0644)
 	if err != nil {
 		return err

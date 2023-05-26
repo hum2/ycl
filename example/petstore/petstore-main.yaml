@@ -5,15 +5,9 @@ servers:
   - url: https://petstore.swagger.io/api
 paths:
   /pets:
-    get:
-      #include: ./paths/pets/get.yaml
-    post:
-      #include: ./paths/pets/post.yaml
+    #include: ./paths/pets.yaml
   /pets/{id}:
-    get:
-      #include: ./paths/pets/{id}/get.yaml
-    delete:
-      #include: ./paths/pets/{id}/delete.yaml
+    #include: ./paths/pets-id.yaml
 components:
   schemas:
     Pet:
